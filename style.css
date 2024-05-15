@@ -1,0 +1,68 @@
+/* Fonts */
+@font-face {
+    font-family: "Geometric Sans";
+    src: url(./fonts/Gully-Regular.ttf);
+}
+@font-face {
+    font-family: "Sense Font";
+    src: url(./fonts/SenseFont1.0-Regular.ttf);
+}
+
+/* Body styling */
+h1 {
+    font-family: "Sense Font";
+}
+p {
+    font-family: "Geometric Sans";
+    text-align: justify;
+}
+
+/* navbar styling */
+.navbar-brand {
+    font-family: "Sense Font";
+    font-size: larger;
+    margin-left: 150px;
+}
+.nav-item {
+    font-family: "Sense Font";
+}
+.form-control {
+    font-family: "Sense Font";
+}
+
+/* Carousel styling */
+.form-control {
+    font-family: "Sense Font";
+}
+#carousel-btn {
+    font-family: "Sense Font";
+    border-color: greenyellow;
+}
+#my-carousel {
+    height: 100vh;
+    width: 100%;
+    margin-bottom: 0px;
+}
+.carousel-caption > p {
+    text-align: center;
+}
+
+/* Main */
+.marketing {
+    margin-top: 0px;
+}
+.quote {
+    text-align: center;
+}
+.featurette-divider {
+    background-color: whitesmoke;
+}
+
+/* Responsive Styling */
+@media only screen and (max-width: 991px) {
+    .navbar-brand {
+        margin-left: 0px;
+    }
+}
+
+  
