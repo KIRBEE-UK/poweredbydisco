@@ -51,6 +51,7 @@ p {
 .marketing {
     margin-top: 0px;
 }
+
 .quote {
     text-align: center;
 }
@@ -58,11 +59,22 @@ p {
     background-color: whitesmoke;
 }
 
+
 /* Responsive Styling */
 @media only screen and (max-width: 991px) {
     .navbar-brand {
         margin-left: 0px;
     }
+    .btn-responsive {
+        font-size: 90%;
+    }
 }
-
+@media only screen and (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+    p {
+        font-size: 80%;
+    }
+}
   
