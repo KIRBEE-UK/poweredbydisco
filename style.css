@@ -11,10 +11,14 @@
 /* Body styling */
 h1 {
     font-family: "Sense Font";
+    padding-top: 1%;
 }
 p {
     font-family: "Geometric Sans";
     text-align: justify;
+}
+.music-art > p {
+    text-align: center;
 }
 
 /* navbar styling */
