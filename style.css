@@ -77,4 +77,16 @@ p {
         font-size: 80%;
     }
 }
+@media only screen and (max-width: 360px) {
+    h1 {
+        font-size: 2rem;
+    }
+    p {
+        font-size: 80%;
+    }
+    .btn-responsive {
+        font-size: 80%;
+    }
+}
+
   
